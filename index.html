@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ali Eren Özgen - Kişisel Portfolyo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
+</head>
+
+<body>
+
+  <div class="page-transition"></div>
+
+  <header class="main-header">
+    <nav class="main-nav">
+      <ul class="nav-links">
+        <li><a href="#home">Ana Sayfa</a></li>
+        <li><a href="#about">Hakkımda</a></li>
+        <li><a href="projeler.html">Projeler</a></li>
+        <li><a href="#certificates">Sertifikalar</a></li>
+        <li><a href="#contact">İletişim</a></li>
+      </ul>
+    </nav>
+    <div class="theme-switch">
+      <i class="fas fa-moon"></i>
+    </div>
+    <div class="menu-btn">
+      <div class="menu-btn__burger"></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero parallax-section" id="home" data-parallax-intensity="30">
+      <canvas id="heroCanvas"></canvas>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1><span class="highlight">Ali Eren Özgen</span></h1>
+          <h2>Bilgisayar Mühendisi</h2>
+          <div class="hero-btns">
+            <a href="#about" class="btn btn-primary">Hakkımda Daha Fazla Bilgi</a>
+            <a href="#contact" class="btn btn-secondary">İletişime Geç</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-frame">
+            <img src="img/profile.jpg" alt="Profil Fotoğrafı">
+          </div>
+          <div class="hero-animation"></div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+        <div class="arrow">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="section-title">Hakkımda</h2>
+      <div class="about-content">
+        <div class="about-image">
+          <div class="profile-image-container">
+            <img src="img/hakkimda.jpg" alt="Ali Eren Özgen">
+            <div class="image-overlay"></div>
+          </div>
+          <div class="social-badges">
+            <a href="https://github.com/alierenozgenn" target="_blank" class="social-badge" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/alierenozgen/" target="_blank" class="social-badge" title="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/alierenozgen/" target="_blank" class="social-badge" title="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+          <div class="about-profile-meta">
+            <div class="about-location-badge">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>İstanbul, Türkiye</span>
+            </div>
+            <a href="dosyalar/cv.pdf" target="_blank" class="btn-cv">
+              <i class="fas fa-file-pdf"></i> CV
+            </a>
+          </div>
+        </div>
+        <div class="about-text">
+          <h3 class="about-heading">Kim Olduğum Hakkında <span class="accent-dot"></span></h3>
+
+          <p>Merhaba! Ben <span class="highlight">Ali Eren Özgen</span>. 2002 yılında Aydın’da başlayan hayat
+            yolculuğum, eğitim hayatım boyunca Erzincan ve Samsun'da şekillendi. 2021 yılında adım attığım Ondokuz Mayıs
+            Üniversitesi Bilgisayar Mühendisliği bölümünden 2025 yılında 2.86/4.00 akademik ortalama ile mezun oldum.
+          </p>
+
+          <p>Yazılım geliştirmeye olan merakım, üniversite yıllarımla birlikte profesyonel bir vizyona dönüştü. Bu
+            süreçte hem bireysel çalışmalarda hem de ekip projelerinde aktif rol alarak; Full-Stack mimariler, mobil
+            uygulama geliştirme ve yapay zeka alanlarında uçtan uca tecrübe edindim.</p>
+
+          <p>Lisans eğitimim boyunca birçok projeye imza attım. Özellikle son sınıfta geliştirdiğimiz bitirme
+            projemizde, ekip olarak hem donanım hem yazılım entegrasyonu sağladık; mobil uygulama, yapay zeka model
+            entegrasyonu ve sensör kontrollü sistemler (IoT) üzerinde kapalı döngü (closed-loop) algoritmalar
+            tasarladık.</p>
+
+          <p>Akademik projelerimin yanı sıra profesyonel iş dünyasında da değerli tecrübeler edindim. Atakum
+            Belediyesi'ndeki
+            stajımda gerçek dünya projelerinde yer alarak ekiple koordineli çalışmanın dinamiklerini öğrendim.
+            Turing'deki global deneyimimde ise, yapay zeka tarafından üretilen kodları detaylıca inceleyip test ederek
+            hem üretken yapay zekayı (Generative AI) yazılım süreçlerine entegre etme vizyonumu genişlettim hem de
+            hata ayıklama ve kod geliştirme yetkinliklerimi üst seviyeye taşıdım.</p>
+
+          <p>Teknolojiye olan ilgimi üretkenlikle birleştirerek, kendimi sürekli geliştirmeye ve yeni projeler üretmeye
+            aralıksız devam ediyorum. Sadece teorik bilgilerle yetinmiyor; katıldığım yarışmalarla kendime daha çok
+            pratik katmaya, problem çözme yeteneğimi ve sınırlarımı zorlamaya çalışıyorum. Geliştirdiğim tüm bu
+            çalışmaların teknik detaylarına, kurduğum yazılım mimarilerine ve teknolojileri projelerime nasıl entegre
+            ettiğime sitemdeki <a href="projeler.html" class="projects-bold-link"><strong>Projeler</strong></a>
+            bölümünden detaylıca erişebilirsiniz.</p>
+        </div>
+      </div>
+
+      <!-- Teknik Yetenekler (Sade CV Stili) -->
+      <div class="clean-cv-section">
+        <h3 class="clean-cv-title">TEKNİK YETENEKLER</h3>
+        <div class="clean-skills-list">
+          <div class="skill-line">
+            <strong>Programlama Dilleri:</strong> Python, JavaScript, Dart, C#, C++, Java, HTML/CSS, SQL
+          </div>
+          <div class="skill-line">
+            <strong>Framework & Kütüphaneler:</strong> Flutter, Node.js, FastAPI, Keras, TensorFlow, Pydantic, Flask
+          </div>
+          <div class="skill-line">
+            <strong>Veritabanı & Backend:</strong> Firebase, Supabase, MongoDB, Redis, MySQL, MSSQL
+          </div>
+          <div class="skill-line">
+            <strong>Araçlar & IoT:</strong> Git, Docker, Postman, Linux, JIRA, VS Code, Android Studio, Visual Studio,
+            Arduino, ESP32
+          </div>
+          <div class="skill-line">
+            <strong>Diller:</strong> İngilizce (B2), Türkçe (Anadil)
+          </div>
+        </div>
+      </div>
+
+      <!-- Deneyim (Sade CV Stili) -->
+      <div class="clean-cv-section">
+        <h3 class="clean-cv-title">DENEYİM</h3>
+        <div class="clean-experience-list">
+          <div class="clean-exp-item">
+            <div class="exp-row-top">
+              <h4 class="exp-title">Yapay Zeka Kalite Analisti</h4>
+              <span class="exp-date">Nisan 2026 – Temmuz 2026</span>
+            </div>
+            <div class="exp-row-sub">
+              <span class="exp-company-italic">Turing</span>
+              <span class="exp-location-italic">Uzaktan</span>
+            </div>
+            <ul class="clean-exp-bullets">
+              <li>Google Gemini başta olmak üzere Büyük Dil Modellerinin (LLM) hem yanıt hem de kod yazma kalitesini ve
+                doğruluğunu artırmak amacıyla ileri düzey istem mühendisliği (prompt engineering) teknikleri uyguladım
+                ve model çıktılarını detaylıca analiz ettim.</li>
+              <li>Yapay zeka tarafından algoritmik problemler için üretilen kod parçacıklarının çalışabilirliğini ve
+                performansını test ettim; bu sayede sistemin kod yazma dinamiklerini optimize ederken kendi hata
+                ayıklama (debugging) ve kod analizi yeteneklerimi geliştirdim.</li>
+              <li>Sürekli model testleri ve değerlendirme süreçleri sayesinde, üretken yapay zeka (Generative AI)
+                araçlarını yazılım geliştirme süreçlerine entegre etme konusunda derin pratik ve vizyon kazandım.</li>
+              <li>Tamamen İngilizce yürütülen bir çalışma ortamında, dünyanın farklı ülkelerinden gelen çok kültürlü ve
+                uluslararası bir ekiple koordineli şekilde uzaktan çalışarak kültürlerarası iletişim becerilerimi
+                güçlendirdim.</li>
+            </ul>
+          </div>
+
+          <div class="clean-exp-item">
+            <div class="exp-row-top">
+              <h4 class="exp-title">Stajyer Bilgisayar Mühendisi</h4>
+              <span class="exp-date">Temmuz 2024 – Eylül 2024</span>
+            </div>
+            <div class="exp-row-sub">
+              <span class="exp-company-italic">Atakum Belediyesi</span>
+              <span class="exp-location-italic">Samsun</span>
+            </div>
+            <ul class="clean-exp-bullets">
+              <li>Gerçek proje ortamında çalışarak tam yığın (full-stack) web geliştirme süreçlerinde aktif rol aldım
+                (HTML, CSS, JavaScript, Python).</li>
+              <li>OpenCV kütüphanesi kullanılarak yürütülen bir görüntü işleme projesinde algoritmaların test ve
+                geliştirme aşamalarına katkı sağladım.</li>
+              <li>Proje geliştirme süreçlerinde Git ve GitHub versiyon kontrol sistemlerini aktif olarak kullanarak ekip
+                içi koordinasyona ve kod yönetimine dâhil oldum; bu süreç, öğrendiklerimi pratiğe dökmemi ve ekip
+                çalışmasına hızla adapte olmamı sağladı.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="homepage-projects-carousel" id="homepage-projects">
+      <h2 class="section-title">Projelerim</h2>
+      <div class="carousel-wrapper">
+        <div class="carousel-track">
+        </div>
+      </div>
+      <div class="carousel-controls">
+        <button class="carousel-prev"><i class="fas fa-chevron-left"></i></button>
+        <div class="carousel-dots"></div>
+        <button class="carousel-next"><i class="fas fa-chevron-right"></i></button>
+      </div>
+      <div class="text-center mt-8">
+        <a href="projeler.html" class="btn btn-primary">Tüm Projelerime Git</a>
+      </div>
+    </section>
+
+    <!-- Sertifikalar ve Ödüller Bölümü -->
+    <section class="certificates-section animate-on-scroll" id="certificates">
+      <h2 class="section-title">Sertifikalar ve Ödüller</h2>
+
+      <div class="certificates-grid">
+        <!-- Kart 1 (Üst Sol) -->
+        <div class="cert-card pos-top-left" tabindex="0" role="button" aria-expanded="false">
+          <div class="cert-card-inner">
+            <div class="cert-col-meta">
+              <div class="cert-meta">
+                <span class="cert-issuer"><i class="fas fa-trophy"></i> Techcareer.net</span>
+                <span class="cert-date"><i class="far fa-calendar-alt"></i> Ocak 2026</span>
+                <h3 class="cert-title">AI Builder Challenge Birinciliği</h3>
+              </div>
+              <div class="cert-toggle-btn" title="Detayı Göster">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <div class="cert-col-desc">
+                <p class="cert-description">
+                  Kısıtlı sürede Python kodlarındaki hataları optimize ederek 1.lik kazandığım yarışmadır; kodlara <a
+                    href="https://github.com/alierenozgenn/ai-builder-challenge-hackathon" target="_blank"
+                    class="cert-desc-link"><strong>buradan</strong></a> ulaşabilirsiniz.
+                </p>
+              </div>
+              <div class="cert-col-media">
+                <a href="dosyalar/sertifika1.pdf" target="_blank" class="btn-cert-pdf">
+                  <i class="fas fa-file-pdf"></i> Sertifikayı görmek için tıklayınız
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kart 2 (Üst Orta-Sol) -->
+        <div class="cert-card pos-top-mid" tabindex="0" role="button" aria-expanded="false">
+          <div class="cert-card-inner">
+            <div class="cert-col-meta">
+              <div class="cert-meta">
+                <span class="cert-issuer"><i class="fas fa-medal"></i> Techcareer.net</span>
+                <span class="cert-date"><i class="far fa-calendar-alt"></i> Mart 2026</span>
+                <h3 class="cert-title">AI Builder Challenge V2 İkinciliği</h3>
+              </div>
+              <div class="cert-toggle-btn" title="Detayı Göster">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <div class="cert-col-desc">
+                <p class="cert-description">
+                  İleri seviye Python senaryolarındaki hataları başarıyla gidererek 2.lik elde ettiğim yarışmadır;
+                  kodlara <a href="https://github.com/alierenozgenn/ai-builder-challenge-hackathon" target="_blank"
+                    class="cert-desc-link"><strong>buradan</strong></a> ulaşabilirsiniz.
+                </p>
+              </div>
+              <div class="cert-col-media">
+                <a href="dosyalar/sertifika2.pdf" target="_blank" class="btn-cert-pdf">
+                  <i class="fas fa-file-pdf"></i> Sertifikayı görmek için tıklayınız
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kart 3 (Üst Orta-Sağ) -->
+        <div class="cert-card pos-top-mid" tabindex="0" role="button" aria-expanded="false">
+          <div class="cert-card-inner">
+            <div class="cert-col-meta">
+              <div class="cert-meta">
+                <span class="cert-issuer"><i class="fab fa-react"></i> Techcareer.net</span>
+                <span class="cert-date"><i class="far fa-calendar-alt"></i> Ocak 2026</span>
+                <h3 class="cert-title">UI Wizardry with ReactJS Education</h3>
+              </div>
+              <div class="cert-toggle-btn" title="Detayı Göster">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <div class="cert-col-desc">
+                <p class="cert-description">
+                  ReactJS ile bileşen tabanlı, dinamik ve modern web arayüzleri oluşturmayı uçtan uca uyguladığım
+                  eğitimdir.
+                </p>
+              </div>
+              <div class="cert-col-media">
+                <a href="dosyalar/sertifika3.pdf" target="_blank" class="btn-cert-pdf">
+                  <i class="fas fa-file-pdf"></i> Sertifikayı görmek için tıklayınız
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kart 4 (Üst Sağ) -->
+        <div class="cert-card pos-top-right" tabindex="0" role="button" aria-expanded="false">
+          <div class="cert-card-inner">
+            <div class="cert-col-meta">
+              <div class="cert-meta">
+                <span class="cert-issuer"><i class="fab fa-python"></i> Turkcell Geleceği Yazanlar</span>
+                <span class="cert-date"><i class="far fa-calendar-alt"></i> Aralık 2025</span>
+                <h3 class="cert-title">Python Eğitimi</h3>
+              </div>
+              <div class="cert-toggle-btn" title="Detayı Göster">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <div class="cert-col-desc">
+                <p class="cert-description">
+                  Nesne yönelimli programlama, temel algoritmalar ve veri yapıları üzerine aldığım kapsamlı Python
+                  eğitimidir.
+                </p>
+              </div>
+              <div class="cert-col-media">
+                <a href="dosyalar/sertifika4.pdf" target="_blank" class="btn-cert-pdf">
+                  <i class="fas fa-file-pdf"></i> Sertifikayı görmek için tıklayınız
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kart 5 (Alt Sol) -->
+        <div class="cert-card pos-bot-left" tabindex="0" role="button" aria-expanded="false">
+          <div class="cert-card-inner">
+            <div class="cert-col-meta">
+              <div class="cert-meta">
+                <span class="cert-issuer"><i class="fab fa-react"></i> Turkcell Geleceği Yazanlar</span>
+                <span class="cert-date"><i class="far fa-calendar-alt"></i> Kasım 2025</span>
+                <h3 class="cert-title">React Eğitimi</h3>
+              </div>
+              <div class="cert-toggle-btn" title="Detayı Göster">
+                <i class="fas fa-chevron-up"></i>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <div class="cert-col-desc">
+                <p class="cert-description">
+                  React kütüphanesinin çalışma mantığını, durum (state) yönetimini ve arayüz geliştirme süreçlerini
+                  öğrendiğim eğitimdir.
+                </p>
+              </div>
+              <div class="cert-col-media">
+                <a href="dosyalar/sertifika5.pdf" target="_blank" class="btn-cert-pdf">
+                  <i class="fas fa-file-pdf"></i> Sertifikayı görmek için tıklayınız
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kart 6 (Alt Orta-Sol) -->
+        <div class="cert-card pos-bot-mid" tabindex="0" role="button" aria-expanded="false">
+          <div class="cert-card-inner">
+            <div class="cert-col-meta">
+              <div class="cert-meta">
+                <span class="cert-issuer"><i class="fas fa-brain"></i> Techcareer.net</span>
+                <span class="cert-date"><i class="far fa-calendar-alt"></i> Ocak 2026</span>
+                <h3 class="cert-title">Yapay Zeka Temelleri Workshop</h3>
+              </div>
+              <div class="cert-toggle-btn" title="Detayı Göster">
+                <i class="fas fa-chevron-up"></i>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <div class="cert-col-desc">
+                <p class="cert-description">
+                  Yapay zeka algoritmalarını ve temel çalışma prensiplerini pratik uygulamalarla öğrendiğim 6 saatlik
+                  atölyedir.
+                </p>
+              </div>
+              <div class="cert-col-media">
+                <a href="dosyalar/sertifika6.pdf" target="_blank" class="btn-cert-pdf">
+                  <i class="fas fa-file-pdf"></i> Sertifikayı görmek için tıklayınız
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kart 7 (Alt Orta-Sağ) -->
+        <div class="cert-card pos-bot-mid" tabindex="0" role="button" aria-expanded="false">
+          <div class="cert-card-inner">
+            <div class="cert-col-meta">
+              <div class="cert-meta">
+                <span class="cert-issuer"><i class="fas fa-laptop-code"></i> Techcareer.net</span>
+                <span class="cert-date"><i class="far fa-calendar-alt"></i> Aralık 2025</span>
+                <h3 class="cert-title">Frontend Fusion Bootcamp</h3>
+              </div>
+              <div class="cert-toggle-btn" title="Detayı Göster">
+                <i class="fas fa-chevron-up"></i>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <div class="cert-col-desc">
+                <p class="cert-description">
+                  Modern ve kullanıcı dostu web arayüzleri geliştirmeyi gerçek projelerle deneyimlediğim 15 saatlik
+                  frontend eğitimidir.
+                </p>
+              </div>
+              <div class="cert-col-media">
+                <a href="dosyalar/sertifika7.pdf" target="_blank" class="btn-cert-pdf">
+                  <i class="fas fa-file-pdf"></i> Sertifikayı görmek için tıklayınız
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kart 8 (Alt Sağ) -->
+        <div class="cert-card pos-bot-right" tabindex="0" role="button" aria-expanded="false">
+          <div class="cert-card-inner">
+            <div class="cert-col-meta">
+              <div class="cert-meta">
+                <span class="cert-issuer"><i class="fab fa-linkedin"></i> LinkedIn Learning Community</span>
+                <span class="cert-date"><i class="far fa-calendar-alt"></i> Mart 2026</span>
+                <h3 class="cert-title">Temel Python Eğitimi</h3>
+              </div>
+              <div class="cert-toggle-btn" title="Detayı Göster">
+                <i class="fas fa-chevron-up"></i>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <div class="cert-col-desc">
+                <p class="cert-description">
+                  Python veri yapılarını ve temel algoritma mantığını %100 İngilizce olarak pekiştirdiğim sertifika
+                  programıdır.
+                </p>
+              </div>
+              <div class="cert-col-media">
+                <a href="dosyalar/sertifika8.pdf" target="_blank" class="btn-cert-pdf">
+                  <i class="fas fa-file-pdf"></i> Sertifikayı görmek için tıklayınız
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kart 9 (3. Satır - Tam Orta) -->
+        <div class="cert-card pos-bot-mid card-centered-row3" tabindex="0" role="button" aria-expanded="false">
+          <div class="cert-card-inner">
+            <div class="cert-col-meta">
+              <div class="cert-meta">
+                <span class="cert-issuer"><i class="fas fa-laptop-code"></i> BTK Akademi</span>
+                <span class="cert-date"><i class="far fa-calendar-alt"></i> Mayıs 2026</span>
+                <h3 class="cert-title">Hackathon 2026 Katılım Belgesi</h3>
+              </div>
+              <div class="cert-toggle-btn" title="Detayı Göster">
+                <i class="fas fa-chevron-up"></i>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <div class="cert-col-desc">
+                <p class="cert-description">
+                  BTK Akademi bünyesinde gerçekleştirilen Hackathon 2026 maratonuna <a href="proje-detay.html?id=2"
+                    class="cert-desc-link"><strong>Aliyda</strong></a> projesiyle katılım sağlanarak sertifika elde
+                  edilmiştir.
+                </p>
+              </div>
+              <div class="cert-col-media">
+                <a href="dosyalar/sertifika9.pdf" target="_blank" class="btn-cert-pdf">
+                  <i class="fas fa-file-pdf"></i> Sertifikayı görmek için tıklayınız
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- İletişim Bölümü -->
+    <section class="contact-section animate-on-scroll" id="contact">
+      <h2 class="section-title">İletişim</h2>
+      <p class="contact-subtitle">Benimle iletişime geçmek için aşağıdaki kanalları kullanabilirsiniz.</p>
+
+      <div class="contact-cards-grid">
+        <a href="mailto:ozgenalierenn@gmail.com" class="contact-card email-card">
+          <div class="contact-icon-wrapper">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="contact-card-info">
+            <h4>E-posta</h4>
+            <p>ozgenalierenn@gmail.com</p>
+          </div>
+          <i class="fas fa-arrow-right contact-arrow"></i>
+        </a>
+
+        <div class="contact-card phone-card"
+          onclick="copyToClipboard('+90 507 935 5625', 'Telefon numarası kopyalandı!')"
+          title="Kopyalamak için tıklayın">
+          <div class="contact-icon-wrapper">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <div class="contact-card-info">
+            <h4>Telefon</h4>
+            <p>+90 507 935 5625</p>
+          </div>
+          <i class="fas fa-copy contact-arrow"></i>
+        </div>
+
+        <div class="contact-card whatsapp-card" onclick="openWhatsApp()">
+          <div class="contact-icon-wrapper">
+            <i class="fab fa-whatsapp"></i>
+          </div>
+          <div class="contact-card-info">
+            <h4>WhatsApp</h4>
+            <p>+90 507 935 5625</p>
+          </div>
+          <i class="fas fa-external-link-alt contact-arrow"></i>
+        </div>
+      </div>
+
+      <div class="contact-social-box">
+        <h4>Sosyal Medyada Takip Edin</h4>
+        <div class="social-links-grid">
+          <a href="https://github.com/alierenozgenn" target="_blank" class="social-card github-card">
+            <i class="fab fa-github"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/alierenozgen/" target="_blank" class="social-card linkedin-card">
+            <i class="fab fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://www.instagram.com/alierenozgen/" target="_blank" class="social-card instagram-card">
+            <i class="fab fa-instagram"></i>
+            <span>Instagram</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-content">
+      <div class="footer-links">
+        <a href="https://github.com/alierenozgenn" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/alierenozgen/" target="_blank" class="social-icon"><i
+            class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/alierenozgen/" target="_blank" class="social-icon"><i
+            class="fab fa-instagram"></i></a>
+      </div>
+      <p>&copy; Ali Eren Özgen.</p>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast">
+    <i class="fas fa-check-circle"></i>
+    <span id="toast-message">Kopyalandı!</span>
+  </div>
+
+  <!-- Mobil Sertifika Bottom Sheet (Alttan Açılan Panel & Karartma) -->
+  <div class="cert-mobile-backdrop" id="certMobileBackdrop"></div>
+  <div class="cert-bottom-sheet" id="certBottomSheet"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
